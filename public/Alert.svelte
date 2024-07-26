@@ -42,10 +42,6 @@
         color: #a94442;
         border: 1px solid #ebccd1;
     }
-    .alert img {
-        width: 20px;
-        height: 20px;
-    }
     .alert .additional-text {
         margin-top: 10px;
         font-size: 14px;
@@ -56,7 +52,7 @@
 
 <div class={`alert ${type}`}>
     
-    <img src="./src/assets/icon-succes-check.svg" alt="alert icon"/>
+    
     <span>{message}</span>
     {#if additionalText}
     <div class="additional-text">{additionalText}</div>
