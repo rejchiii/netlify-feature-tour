@@ -56,7 +56,7 @@
 
 <div class={`alert ${type}`}>
     
-    <img src="src/assets" alt="alert icon"/>
+    <img src="./src/assets/icon-succes-check.svg" alt="alert icon"/>
     <span>{message}</span>
     {#if additionalText}
     <div class="additional-text">{additionalText}</div>
